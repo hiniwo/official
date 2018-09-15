@@ -1,0 +1,120 @@
+#footer{
+	background: #000;
+}
+#footer .downApp{
+	display: block;
+	color: #fff;
+	padding: 0.05rem 0.1rem;
+}
+#footer .downApp::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+#footer .downApp .logo{
+	width: 70%;
+	float: left;
+}
+#footer .downApp img{
+	width: 0.4rem;
+	margin-right: 0.1rem;
+	float: left;
+}
+#footer .downApp span{
+	display: block;
+	line-height: 0.2rem;
+	font-size: 0.12rem;
+}
+#footer .btn{
+	width: 0.75rem;
+    line-height: 0.28rem;
+    text-align: center;
+    font-size: 0.12rem;
+    background: #e43a4a;
+    margin-top: 0.08rem;
+    float: right;
+}
+#footer .box,#footer .tcp{
+	display: none;
+}
+
+@media (min-width: 641px){
+	#footer .downApp{
+		display: none;
+	}
+	#footer .box{
+		display: block;
+		max-width: 1000px;
+		padding: 0.3rem 0;
+		margin: 0 auto;
+	}
+	#footer .fl{
+		display: inline-block;
+		line-height: 0.4rem;
+		font-size: 0.24rem;
+		color: #fff;
+		padding-left: 0.48rem;
+		background: url(../img/logo.png) left center no-repeat;
+		background-size: 0.4rem;
+	}
+	#footer .down{
+		font-size: 0;
+		margin-top: 0.1rem;
+		float: right;
+	}
+	#footer .down div{
+		display: inline-block;
+		height: 0.24rem;
+		margin-left: 0.14rem;
+		background-size: 100%;
+		cursor: pointer;
+		position: relative;
+	}
+	#footer .down img{
+		height: 1rem;
+		padding: 0.03rem;
+		background: #fff;
+		border-radius: 0.06rem;
+		box-shadow: 6px 4px 10px #999;
+		position: absolute;
+		left: 0;
+		top: -1.15rem;
+		z-index: 1;
+		display: none;
+	}
+	#footer .wx,#footer .xcx{
+		width: 0.24rem;
+	}
+	#footer .ios,#footer .az{
+		width: 0.7rem;
+	}
+	#footer .ios img,#footer .az img{
+		left: inherit;
+		right: 0;
+	}
+	#footer .wx{
+		background-image: url(../img/icon-wx.png);
+	}
+	#footer .xcx{
+		background-image: url(../img/icon-xcx.png);
+	}
+	#footer .ios{
+		background-image: url(../img/icon-ios.png);
+	}
+	#footer .az{
+		background-image: url(../img/icon-az.png);
+	}
+	#footer .down div:hover img{
+		display: block;
+	}
+	#footer .tcp{
+		display: block;
+		text-align: center;
+		line-height: 0.22rem;
+		font-size: 0.1rem;
+		background: #242424;
+	}
+	#footer .tcp a{
+		margin-right: 0.1rem;
+	}
+}

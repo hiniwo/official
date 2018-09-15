@@ -1,0 +1,312 @@
+.flCover{
+	padding : 0.4rem 0.1rem 0.2rem 0.1rem;
+}
+.flCover .box{
+	max-width: 1000px;
+	margin:0 auto;
+}
+
+.flCover .box::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.flCover strong,.flCover span{
+	display: block;
+	text-align: center;
+}
+.flCover strong{
+	font-size: 0.3rem;
+	color: #e43a4a;
+}
+.flCover span{
+	font-size: 0.2rem;
+	color: #000;
+}
+.flCover .qr{
+	margin-top: 0.3rem;
+	text-align: center;
+}
+.flCover .qr span{
+	font-size: 0.18rem;
+}
+.flCover .qr img{
+	width: 1rem;
+	padding: 0.1rem;
+	border: 0.05rem solid #000;
+	border-radius: 0.07rem;
+}
+.flCover .pic img{
+	width: 100%;
+}
+
+
+.flRights{
+	text-align: center;
+	padding: 0.5rem 0.1rem;
+	background: #e43a4a;
+}
+
+.flRights .box{
+	max-width: 1000px;
+	margin:0 auto;
+}
+
+.flRights h2{
+	font-size: 0.2rem;
+	color:#fff;
+}
+.flRights p{
+	font-size: 0.12rem;
+	color: #fff;
+}
+.flRights img{
+	width : 100%;
+	margin-top:0.2rem;
+}
+
+.flRepresent{
+	text-align: center;
+	color:#000;
+	padding : 0.5rem 0.2rem;
+	overflow: hidden;
+}
+
+.flRepresent strong{
+	display: block;
+	font-size: 0.2rem
+}
+
+.flRepresent span{
+	display: block;
+	font-size: 0.12rem;
+}
+
+.flRepresent .pic{
+	margin-top:0.2rem;
+}
+.flRepresent .pic::after,.flRepresent ul::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.flRepresent ul{
+	width : 20%;
+	float: left;
+}
+.flRepresent li{
+	width: 50%;
+	float: left;
+}
+
+.flRepresent li.big{
+	width : 100%;
+}
+.flRepresent img{
+	width : 100%;
+	-moz-transition: all 1s;
+	-ms-transition: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+.flRepresent li:hover img{
+	-moz-transform: scale(1.8);
+	-ms-transform: scale(1.8);
+	-webkit-transform: scale(1.8);
+	transform: scale(1.8);
+	border-radius: 50%;
+	z-index: 1;
+}
+
+
+.flAdvantage{
+	color: #fff;
+	padding: 0.5rem 0.1rem;
+	background: #e43a4a;
+}
+.flAdvantage .box{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.flAdvantage h2{
+	text-align: center;
+	font-size: 0.2rem;
+	color: #fff;
+}
+.flAdvantage ul::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.flAdvantage li{
+	width: 33.3%;
+	margin-top: 0.3rem;
+	float: left;
+}
+.flAdvantage li div{
+	display: inline-block;
+	width: 1rem;
+	text-align: center;
+	font-size: 0.1rem;
+}
+.flAdvantage li.tc{
+	text-align: center;
+}
+.flAdvantage li.tr{
+	text-align: right;
+}
+.flAdvantage li span{
+	display: block;
+}
+.flAdvantage li i{
+	display: inline-block;
+	width: 0.5rem;
+	height: 0.4rem;
+	background-size: 1000%;
+	background-repeat: no-repeat;
+}
+
+
+.indexBanner{
+	padding: 0.5rem 0.1rem;
+	background: #fff;
+}
+.indexBanner .box{
+	max-width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+.indexBanner .box::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.indexBanner .right,.indexBanner .icon span{
+	-moz-transition: all 0.6s;
+	-ms-transition: all 0.6s;
+	-webkit-transition: all 0.6s;
+	transition: all 0.6s;
+}
+.indexBanner .left{
+	width: 32%;
+	font-size: 0;
+	background: url(../img/index-banner-left.jpg) left top no-repeat;
+	background-size: 400%;
+	float: left;
+}
+.indexBanner .left::before{
+	content: '';
+	display: block;
+	padding-top: 100%;
+}
+.indexBanner .right{
+	width: 64%;
+	background: url(../img/index-banner.jpg) left center repeat-x;
+	background-size: 200%;
+	background-position-x: 0;
+	float: right;
+}
+.indexBanner .right img{
+	width: 50%;
+}
+.indexBanner .icon{
+	position: absolute;
+	left: 0;
+	bottom: 15%;
+	z-index: 1;
+}
+.indexBanner .icon span{
+	display: block;
+	width: 0.08rem;
+	height: 0.08rem;
+	background: #eee;
+	margin-right: 0.1rem;
+	float: left;
+}
+.indexBanner .icon span.active{
+	width: 0.22rem;
+	background: #e43a4a;
+}
+
+.flBrand{
+	padding: 0.5rem 0.1rem;
+	background: #e43a4a;
+}
+.flBrand .box{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.flBrand h2{
+	text-align: center;
+	font-size: 0.2rem;
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 0.35rem;
+}
+.flNews{
+	padding: 0.5rem 0.1rem;
+	background: #fff;
+}
+.flNews .box{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.flNews h2{
+	text-align: center;
+	font-size: 0.22rem;
+	color: #000;
+	font-weight: bold;
+}
+.flNews img{
+	width: 100%;
+	margin-top: 0.2rem;
+}
+.flNews h3{
+	font-size: 0.13rem;
+	color: #000;
+	font-weight: bold;
+	margin: 0.06rem 0;
+}
+.flNews p{
+	font-size: 0.12rem;
+	color: #000;
+}
+
+
+
+@media (min-width: 641px){
+	.flCover .intro{
+		width : 50%;
+		float: left;
+		text-align: left;
+		
+	}
+	.flCover .qr{
+		text-align: left;
+	}
+	.flCover strong,.flCover span{
+		text-align: left;
+	}
+	.flCover .pic{
+		width: 50%;
+		float: right;
+	}
+	.flNews ul::after{
+		content: '';
+		display: block;
+		clear: both;
+	}
+	.flNews ul{
+		margin-left: -0.3rem;
+	}
+	.flNews li{
+		width: 50%;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		padding-left: 0.3rem;
+		float: left;
+	}
+}

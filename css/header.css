@@ -1,0 +1,59 @@
+#header{
+	height: 0.36rem;
+}
+#header .box{
+	width:100%;
+	text-align: center;
+	padding : 0.05rem 0;
+	background: #000;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 3;
+}
+
+#header .box div{
+	max-width: 1000px;
+	margin: 0 auto;	
+}
+
+#header .fl{
+	display: none;
+}
+
+#header ul{
+	text-align: center;
+	line-height: 0.24rem;
+	white-space: nowrap;
+	
+}
+#header li{
+	display: inline-block;
+	margin : 0 0.12rem;
+}
+
+#header li a{
+	display: inline-block;
+	font-size: 0.12rem;
+	color:#fff;
+}
+#header li.active a{
+	font-weight: bold;
+	color:#e43a4a;
+	border-bottom: 3px solid #e43a4a;
+}
+
+@media (min-width : 641px){
+	#header .fl{
+		display: block;
+		line-height: 0.26rem;
+		font-size: 0.18rem;
+		font-weight: bold;
+		color: #fff;
+		float: left;
+	}
+	#header ul{
+		overflow-x: visible;
+		float: right;
+	}
+}
